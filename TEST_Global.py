@@ -18,9 +18,9 @@ while True:
    
     # Détecter variations
     if valeur_lumiere > ancienne_lumiere + 1000:
-        print("📈 Lumière augmente :", valeur_lumiere)
+        print("[+] Lumière augmente :", valeur_lumiere)
     elif valeur_lumiere < ancienne_lumiere - 1000:
-        print("📉 Lumière diminue :", valeur_lumiere)
+        print("[-] Lumière diminue :", valeur_lumiere)
    
     ancienne_lumiere = valeur_lumiere
  
@@ -30,7 +30,7 @@ while True:
     # --- DÉCISION : allumer LED si mouvement + sombre ---
     if mouvement and valeur_lumiere < SEUIL_LUMIERE:
         led.value(1)
-        print("👀 Mouvement détecté et il fait sombre -> LED ON")
+        print("[~] Mouvement détecté et il fait sombre -> LED ON")
     else:
         led.value(0)
  
