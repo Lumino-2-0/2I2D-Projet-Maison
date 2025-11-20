@@ -58,9 +58,8 @@ Voici comment configurer le projet :
 
 Cloner le dépôt :
 
-```git clone https://github.com/Lumino-2-0/2I2D-Projet-Maison.git```
-```cd 2I2D-Projet-Maison```
-
+- ```git clone https://github.com/Lumino-2-0/2I2D-Projet-Maison.git```
+- ```cd 2I2D-Projet-Maison```
 - Installer MicroPython sur le Raspberry Pi Pico (si ce n’est pas déjà fait) :
 - Télécharger le firmware MicroPython pour le Pico
 - Flasher le Pico avec l’outil approprié
